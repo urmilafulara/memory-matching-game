@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Memory Matching Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="dark-btn" onclick="toggleDark()" id="darkToggle">🌙</button>
+    <h1>🧠 Memory Matching Game 🎯</h1>
+    
+    <div class="controls">
+        
+        <span>Moves: <span id="moves">0</span></span>
+        <span>Time: <span id="time">0</span>s</span>
+        
+        <select id="difficulty">
+            <option value="8">Easy</option>
+            <option value="10">Medium</option>
+            <option value="18">Hard</option>
+        </select>
+        
+        <button onclick="startTimer()">Start</button>
+        <button onclick="stopGame()">Stop</button>
+        <button onclick="startGame()">New Game</button>
+    
+    </div>
+    
+    <div id="board" class="game-board"></div>
+    
+    <!-- POPUP FOR WIN -->
+     <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>🎉 You Won!</h2>
+            <p id="result"></p>
+            <button onclick="startGame()">Play Again</button>
+        </div>
+    </div>
+    
+    <!-- POPUP FOR NAME BEFORE GAME -->
+     <div id="namePopup" class="popup" style="display:flex; align-items:center; justify-content:center;">
+        <div class="popup-content">
+            <h2>Enter Your Name</h2>
+            <input type="text" id="playerName" placeholder="Your name">
+            <button onclick="startGameWithName()">Start Game</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
