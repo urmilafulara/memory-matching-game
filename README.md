@@ -9,6 +9,7 @@ The game challenges users to match pairs of cards while enhancing memory and foc
 - Player Name Entry
 - Move Counter & Smart Timer
 - Best Score Tracking using Local Storage
+- Multiple Themes (Animal, Emoji & Space)
 - Three Difficulty Levels (Easy, Medium & Hard)
 - Random Card Shuffle with Smooth Flip Animation
 - Pause, Resume & Stop Controls
