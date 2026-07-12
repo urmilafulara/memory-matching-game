@@ -5,17 +5,24 @@ The game challenges users to match pairs of cards while enhancing memory and foc
 
 ## Features
 
-- Card flipping and matching logic  
-- Multiple difficulty levels  
-- Interactive and engaging gameplay  
-- Responsive design for different screen sizes  
-- Smooth animations for enhanced user experience  
-
+- Interactive Memory Matching Game
+- Player Name Entry
+- Move Counter & Smart Timer
+- Best Score Tracking using Local Storage
+- Three Difficulty Levels (Easy, Medium & Hard)
+- Random Card Shuffle with Smooth Flip Animation
+- Pause, Resume & Stop Controls
+- Match & Mismatch Sound Effects
+- Dark Mode
+- Win Popup with Confetti & Play Again Option
+ 
 ## Technologies Used
 
-- HTML  
-- CSS  
-- JavaScript  
+- HTML5 
+- CSS3
+- Vanilla JavaScript
+- Local Storage API
+- Canvas Confetti Library 
 
 ## Description
 
